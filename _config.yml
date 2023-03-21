@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Outerform / Site Title"
+title                    : "Liu Junhao's Homepage"
 title_separator          : "-"
 name                     : &name "Liu Junhao"
 description              : &description "personal description"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : liujunhao@pku.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
