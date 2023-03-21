@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about
 title: "Liu Junhao's Homepage"
 excerpt: "About me"
 author_profile: true
