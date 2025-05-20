@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Hello! Welcome to my homepage. I am <ruby>Liu<rt>surname</rt></ruby> <ruby>Junhao<rt>first name</rt></ruby> (<ruby>刘俊豪<rt>liú jùn háo</rt></ruby>), a PhD student in the <a href = "https://pl.cs.pku.edu.cn">Programming Language Lab</a> at Peking University, advised with <a href="https://xinpl.github.io/">Prof. Xin Zhang</a> .
+  Hello! Welcome to my homepage. I am <ruby>Liu<rt>surname</rt></ruby> <ruby>Junhao<rt>first name</rt></ruby> (<ruby>刘俊豪<rt>liú jùn háo</rt></ruby>), a PhD student in the <a href = "https://pl.cs.pku.edu.cn">Programming Language Lab</a> at Peking University, advised with <a href="https://xinpl.github.io/">Prof. Zhang Xin</a> .
 </p>
 
 <p>
