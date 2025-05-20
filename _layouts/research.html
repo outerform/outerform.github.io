@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="work">
+          <h1 class="page-heading">{{ page.title }}</h1>
+          {{ content }}
+
+          {% for item in page.items %}
+          <div class="work-item">
+            <span class="work-text">
+              <strong>[{{ item.conference }}]:</strong>
+            </span>
+            <div class="work-description">
+              {{ item.description | replace: 'Liu, Junhao', '<strong>Liu, Junhao</strong>' | replace: 'Junhao Liu', '<strong>Junhao Liu</strong>' }}
+              {% assign links = '' %}
+              {% if item.paper %}
+                {% assign links = links | append: '<a href="' | append: item.paper | append: '" target="_blank">[paper]</a>' %}
+              {% endif %}
+              {% if item.code %}
+                {% assign links = links | append: '<a href="' | append: item.code | append: '" target="_blank">[code]</a>' %}
+              {% endif %}
+              {% if item.datasets %}
+                {% assign links = links | append: '<a href="' | append: item.datasets | append: '" target="_blank">[datasets]</a>' %}
+              {% endif %}
+              {{ links | strip_newlines }}
+              {% if item.image and item.image.src %}
+                <div class="work-image" style="width:100%;">
+                  <img src="{{ item.image.src | absolute_url }}" alt="{{ item.image.alt }}" style="width:100%;max-width:none;height:auto;margin-top:0.5em;display:block;" />
+                </div>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include foot.html %}
+  </body>
+</html>
