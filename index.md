@@ -23,8 +23,9 @@ profile_picture:
 
 <p>
 The most important lesson learned in programming language lab is to learn more languages. 
-除咗英文同普通話，我亦懂得啲粵語，咁我哋都可以用粵語進行學術交流。
-日本語でもいい。
+除咗英文同普通話，我亦學緊粵語，咁我哋都可以用粵語進行學術交流。
+<!-- 我亦懂得啲粵語，咁我哋都可以用粵語進行學術交流。 -->
+<!-- 日本語でもいい。 -->
 </p>
 
 <div class="news-section">
