@@ -16,6 +16,9 @@ header:
       slug: /research
     - name: Activities
       slug: /activities
+    - name: CV
+      slug: /assets/CV.pdf
+
 
 footer:
   show_powered_by: true
