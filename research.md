@@ -16,7 +16,7 @@ items:
     description: "Yu, Haonan, Junhao Liu, and Xin Zhang. \"Accelerating Anchors via Specialization and Feature Transformation.\" arXiv preprint arXiv:2502.11068 (2025)."
     paper: https://arxiv.org/pdf/2502.11068
   - conference: Preprint
-    description: "Liu, Junhao, Haonan Yu, and Xin Zhang. \"Towards Budget-Friendly Model-Agnostic Explanation Generation for Large Language Models.\" arXiv preprint arXiv:2505.12509 (2025)."
+    description: "Liu, Junhao, Haonan Yu, and Xin Zhang. \"See the Big in the Small: Budget-Friendly Explanations for Large Language Models.\" arXiv preprint arXiv:2505.12509 (2025)."
     paper: https://arxiv.org/pdf/2502.12509
 ---
 
