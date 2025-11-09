@@ -9,8 +9,13 @@ profile_picture:
   Hello! Welcome to my homepage. I am <ruby>Liu<rt>surname</rt></ruby> <ruby>Junhao<rt>first name</rt></ruby> (<ruby>刘俊豪<rt>liú jùn háo</rt></ruby>), a 4-th year PhD student in the <a href = "https://pl.cs.pku.edu.cn">Programming Language Lab</a> at Peking University, advised with <a href="https://xinpl.github.io/">Prof. Zhang Xin</a> .
 </p>
 
+
 <p>
   My research interests lie in the field of eXplainable Artificial Intelligence (XAI), which focuses on developing machine learning and deep learning techniques that are transparent, interpretable, and understandable to humans. I am particularly interested in creating XAI methods that enhance human understanding, foster trust, and support decision-making in complex AI systems.
+</p>
+
+<p>
+<strong>I am currently pursuing my Ph.D. and am exploring opportunities to participate as an exchange student. This experience will provide valuable academic and cultural exposure to further enhance my research in explainable AI. If you have any opportunities or suggestions, feel free to reach out.</strong>
 </p>
 
 <p>
@@ -28,9 +33,7 @@ The most important lesson learned in programming language lab is to learn more l
 <!-- 日本語でもいい。 -->
 </p>
 
-<p>
-<strong>I am currently pursuing my Ph.D. and am exploring opportunities to participate as an exchange student. This experience will provide valuable academic and cultural exposure to further enhance my research in explainable AI. If you have any opportunities or suggestions, feel free to reach out.</strong>
-</p>
+
 
 <div class="news-section">
   <h2>News</h2>
