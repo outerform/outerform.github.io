@@ -6,15 +6,15 @@ profile_picture:
 ---
 
 <p>
-  Hello! Welcome to my homepage. I am <ruby>Liu<rt>surname</rt></ruby> <ruby>Junhao<rt>first name</rt></ruby> (<ruby>刘俊豪<rt>liú jùn háo</rt></ruby>), a PhD student in the <a href = "https://pl.cs.pku.edu.cn">Programming Language Lab</a> at Peking University, advised with <a href="https://xinpl.github.io/">Prof. Zhang Xin</a> .
+  Hello! Welcome to my homepage. I am <ruby>Liu<rt>surname</rt></ruby> <ruby>Junhao<rt>first name</rt></ruby> (<ruby>刘俊豪<rt>liú jùn háo</rt></ruby>), a 4-th year PhD student in the <a href = "https://pl.cs.pku.edu.cn">Programming Language Lab</a> at Peking University, advised with <a href="https://xinpl.github.io/">Prof. Zhang Xin</a> .
 </p>
 
 <p>
-  My research interests lie in the field of Explainable Artificial Intelligence (XAI), which focuses on developing machine learning and deep learning techniques that are transparent, interpretable, and understandable to humans. I am particularly interested in creating XAI methods that enhance human understanding, foster trust, and support decision-making in complex AI systems.
+  My research interests lie in the field of eXplainable Artificial Intelligence (XAI), which focuses on developing machine learning and deep learning techniques that are transparent, interpretable, and understandable to humans. I am particularly interested in creating XAI methods that enhance human understanding, foster trust, and support decision-making in complex AI systems.
 </p>
 
 <p>
-  I was previously active in competitive programming, having earned several gold medals in the ICPC Asia-East Continental Final and Regional Contests. I also won a gold medal in the National Olympiad in Informatics in 2017. Additionally, I am a co-founder of the PKU Student Algorithm Association.
+  I was previously active in competitive programming, having earned several gold medals in the ICPC Asia-East Continental Final and Regional Contests. I also won a gold medal in the National Olympiad in Informatics (NOI) in 2017. Additionally, I am a co-founder of the PKU Student Algorithm Association.
 </p>
 
 <p>
@@ -23,9 +23,13 @@ profile_picture:
 
 <p>
 The most important lesson learned in programming language lab is to learn more languages. 
-除咗英文同普通話，我亦學緊粵語，咁我哋都可以用粵語進行學術交流。
+除咗英文同普通話，我亦學緊粵語，咁我哋都可以用一齊練習粵語。
 <!-- 我亦懂得啲粵語，咁我哋都可以用粵語進行學術交流。 -->
 <!-- 日本語でもいい。 -->
+</p>
+
+<p>
+<strong>I am currently pursuing my Ph.D. and am exploring opportunities to participate as an exchange student. This experience will provide valuable academic and cultural exposure to further enhance my research in explainable AI. If you have any opportunities or suggestions, feel free to reach out.</strong>
 </p>
 
 <div class="news-section">
