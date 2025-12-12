@@ -11,12 +11,12 @@ profile_picture:
 
 
 <p>
-  My research interests lie in the field of eXplainable Artificial Intelligence (XAI), which focuses on developing machine learning and deep learning techniques that are transparent, interpretable, and understandable to humans. I am particularly interested in creating XAI methods that enhance human understanding, foster trust, and support decision-making in complex AI systems.
+  My research interests lie in the field of eXplainable Artificial Intelligence (XAI), which focuses on developing machine learning and deep learning techniques that are transparent, interpretable, and understandable to humans. I am particularly interested in creating XAI methods that enhance human understanding and trust, and help people effectively utilize AI systems in real-world applications.
 </p>
 
-<p>
+<!-- <p>
 <strong>I am currently pursuing my Ph.D. and am exploring opportunities to participate as an exchange student. This experience will provide valuable academic and cultural exposure to further enhance my research in explainable AI. If you have any opportunities or suggestions, feel free to reach out.</strong>
-</p>
+</p> -->
 
 <p>
   I was previously active in competitive programming, having earned several gold medals in the ICPC Asia-East Continental Final and Regional Contests. I also won a gold medal in the National Olympiad in Informatics (NOI) in 2017. Additionally, I am a co-founder of the PKU Student Algorithm Association.
