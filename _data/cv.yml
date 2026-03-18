@@ -1,0 +1,57 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Junhao Liu (刘俊豪)
+    - name: Languages
+      value: English, Mandarin, Cantonese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science — Computer Software and Theory
+      institution: Peking University, School of Computer Science, Beijing, China
+      year: Sep. 2022 - Jun. 2027 (Expected)
+      description:
+        - "Advisor: Prof. Xin Zhang"
+        - Research on eXplainable Artificial Intelligence (XAI)
+    - title: Bachelor — Computer Science and Technology
+      institution: Peking University, School of EECS, Beijing, China
+      year: Sep. 2018 - Jun. 2022
+      description:
+        - "GPA ranked top 11%, Outstanding Graduate of Beijing"
+
+- title: Internship Experience
+  type: time_table
+  contents:
+    - title: Research Intern (Project Up)
+      institution: Tencent, Hunyuan Multimodal Model Team
+      year: Jul. 2025 - Present
+      description:
+        - Conducting research and development on HunyuanImage models
+        - Improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2017
+      items:
+        - Gold Medal, National Olympiad in Informatics (NOI)
+    - year: 2018 - 2021
+      items:
+        - Gold Medals, ICPC Asia-East Continental Final and Regional Contests
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: eXplainable Artificial Intelligence (XAI)
+      items:
+        - Model-agnostic local explanation techniques
+        - Concept-based explanations
+        - Explanations for Large Language Models
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Formula 1 (Scuderia Ferrari tifosi), Sim Racing, Competitive Programming
+    - <u>Community:</u> Co-founder of PKU Student Algorithm Association

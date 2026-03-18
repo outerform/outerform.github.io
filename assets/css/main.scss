@@ -1,19 +1,25 @@
 ---
-# Only the main Sass file needs Front Matter
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @charset "utf-8";
 
-@use "variables" with (
-  $base-url: "{{ site.baseurl }}"
-);
-@use "mixins";
-@use "extends";
+// Dimensions
+$max-content-width: {{ site.max_width }};
 
-@use "base";
-@use "layout";
-@use "site";
-@use "work";
-@use "blog";
-@use "post";
-@use "not_found";
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill",
+  "cv",
+  "tabs",
+  "typograms",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
+;

@@ -1,0 +1,66 @@
+---
+---
+
+@inproceedings{liu2025rex,
+  title={ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques},
+  author={Liu, Junhao and Zhang, Xin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={18},
+  year={2025},
+  abbr={AAAI},
+  award={Oral (4.68%)},
+  award_name={Oral},
+  selected={true},
+  preview={ReX.jpg},
+  pdf={https://ojs.aaai.org/index.php/AAAI/article/download/34079/36234},
+  abstract={Existing local model-agnostic explanation techniques are ineffective for machine learning models that consider inputs of variable lengths, as they do not consider temporal information embedded in these models. To address this limitation, we propose ReX, a general framework for incorporating temporal information in these techniques. Our key insight is that these techniques typically learn a model surrogate by sampling model inputs and outputs, and we can incorporate temporal information in a uniform way by only changing the sampling process and the surrogate features. We instantiate our approach on three popular explanation techniques: Anchors, LIME, and Kernel SHAP. To evaluate the effectiveness of ReX, we apply our approach to six models in three different tasks. Our evaluation results demonstrate that our approach 1) significantly improves the fidelity of explanations, making model-agnostic techniques outperform a state-of-the-art model-specific technique on its target model, and 2) helps end users better understand the models' behaviors.}
+}
+
+@article{liu2024conlux,
+  title={Beyond Attribution: Unified Concept-Level Explanations},
+  author={Liu, Junhao and Yu, Haonan and Zhang, Xin},
+  journal={arXiv preprint arXiv:2410.12439},
+  year={2024},
+  abbr={Preprint},
+  pdf={https://arxiv.org/pdf/2410.12439},
+  arxiv={2410.12439},
+  preview={conlux.jpg},
+  abstract={There is an increasing need to integrate model-agnostic explanation techniques with concept-based approaches, as the former can explain models across different architectures while the latter makes explanations more faithful and understandable to end-users. However, existing concept-based model-agnostic explanation methods are limited in scope, mainly focusing on attribution-based explanations while neglecting diverse forms like sufficient conditions and counterfactuals, thus narrowing their utility. To bridge this gap, we propose a general framework UnCLE to elevate existing local model-agnostic techniques to provide concept-based explanations. Our key insight is that we can uniformly extend existing local model-agnostic methods to provide unified concept-based explanations with large pre-trained model perturbation. We have instantiated UnCLE to provide concept-based explanations in three forms: attributions, sufficient conditions, and counterfactuals, and applied it to popular text, image, and multimodal models. Our evaluation results demonstrate that UnCLE provides explanations more faithful than state-of-the-art concept-based explanation methods, and provides richer explanation forms that satisfy various user needs.}
+}
+
+@article{yu2025accelerating,
+  title={MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation},
+  author={Yu, Haonan and Liu, Junhao and Zhang, Xin},
+  journal={arXiv preprint arXiv:2502.11068},
+  year={2025},
+  abbr={Preprint},
+  pdf={https://arxiv.org/pdf/2502.11068},
+  arxiv={2502.11068},
+  preview={manchors.jpg},
+  abstract={Anchors is a popular local model-agnostic explanation technique whose applicability is limited by its computational inefficiency. To address this limitation, we propose a memorization-based framework that accelerates Anchors while preserving explanation fidelity and interpretability. Our approach leverages the iterative nature of Anchors' algorithm which gradually refines an explanation until it is precise enough for a given input by storing and reusing intermediate results obtained during prior explanations. Specifically, we maintain a memory of low-precision, high-coverage rules and introduce a rule transformation framework to adapt them to new inputs: the horizontal transformation adapts a pre-trained explanation to the current input by replacing features, and the vertical transformation refines the general explanation until it is precise enough for the input. We evaluate our method across tabular, text, and image datasets, demonstrating that it significantly reduces explanation generation time while maintaining fidelity and interpretability, thereby enabling the practical adoption of Anchors in time-sensitive applications.}
+}
+
+@article{liu2026focuslime,
+  title={Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection},
+  author={Liu, Junhao and Yu, Haonan and Yan, Zhenyu and Zhang, Xin},
+  journal={arXiv preprint arXiv:2602.04607},
+  year={2026},
+  abbr={Preprint},
+  pdf={https://arxiv.org/pdf/2602.04607},
+  arxiv={2602.04607},
+  preview={focuslime.jpg},
+  abstract={As Large Language Models (LLMs) scale to handle massive context windows, achieving surgical feature-level interpretation is essential for high-stakes tasks like legal auditing and code debugging. However, existing local model-agnostic explanation methods face a critical dilemma in these scenarios: feature-based methods suffer from attribution dilution due to high feature dimensionality, thus failing to provide faithful explanations. In this paper, we propose Focus-LIME, a coarse-to-fine framework designed to restore the tractability of surgical interpretation. Focus-LIME utilizes a proxy model to curate the perturbation neighborhood, allowing the target model to perform fine-grained attribution exclusively within the optimized context. Empirical evaluations on long-context benchmarks demonstrate that our method makes surgical explanations practicable and provides faithful explanations to users.}
+}
+
+@article{liu2025budget,
+  title={Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models},
+  author={Liu, Junhao and Yu, Haonan and Zhang, Xin},
+  journal={arXiv preprint arXiv:2505.12509},
+  year={2025},
+  abbr={Preprint},
+  pdf={https://arxiv.org/pdf/2505.12509},
+  arxiv={2505.12509},
+  preview={budget.jpg},
+  abstract={Post-hoc explanations provide transparency and are essential for guiding model optimization, such as prompt engineering and data sanitation. However, applying model-agnostic techniques to Large Language Models (LLMs) is hindered by prohibitive computational costs, rendering these tools dormant for real-world applications. To revitalize model-agnostic interpretability, we propose a budget-friendly proxy framework that leverages efficient models to approximate the decision boundaries of expensive LLMs. We introduce a screen-and-apply mechanism to statistically verify local alignment before deployment. Our empirical evaluation confirms that proxy explanations achieve over 90% fidelity with only 11% of the oracle's cost. Building on this foundation, we demonstrate the actionable utility of our framework in prompt compression and poisoned example removal. Results show that reliable proxy explanations effectively guide optimization, transforming interpretability from a passive observation tool into a scalable primitive for LLM development. Additionally, we open-source code and datasets to facilitate future research.}
+}

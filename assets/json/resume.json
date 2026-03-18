@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Junhao Liu",
+    "label": "PhD Student",
+    "image": "",
+    "email": "liujunhao@pku.edu.cn",
+    "url": "https://outerform.site",
+    "summary": "A PhD student at Peking University, researching eXplainable Artificial Intelligence (XAI).",
+    "location": {
+      "city": "Beijing",
+      "countryCode": "CN",
+      "region": "Beijing"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "outerform",
+        "url": "https://github.com/outerform"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tencent",
+      "position": "Research Intern (Project Up), Hunyuan Multimodal Model Team",
+      "url": "",
+      "startDate": "2025-07-01",
+      "endDate": "",
+      "summary": "Conducting research and development on HunyuanImage models. Improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Peking University, School of Computer Science",
+      "location": "Beijing, China",
+      "url": "https://www.pku.edu.cn/",
+      "area": "Computer Software and Theory",
+      "studyType": "PhD",
+      "startDate": "2022-09-01",
+      "endDate": "2027-06-01",
+      "score": "",
+      "courses": ["Advisor: Prof. Xin Zhang", "Research on eXplainable Artificial Intelligence (XAI)"]
+    },
+    {
+      "institution": "Peking University, School of EECS",
+      "location": "Beijing, China",
+      "url": "https://www.pku.edu.cn/",
+      "area": "Computer Science and Technology",
+      "studyType": "Bachelor",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-01",
+      "score": "GPA ranked top 11%",
+      "courses": ["Outstanding Graduate of Beijing"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Gold Medal, National Olympiad in Informatics (NOI)",
+      "date": "2017-07-01",
+      "awarder": "China Computer Federation",
+      "summary": ""
+    },
+    {
+      "title": "Gold Medals, ICPC Asia-East Continental Final and Regional Contests",
+      "date": "2020-01-01",
+      "awarder": "ICPC Foundation",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques",
+      "publisher": "AAAI Conference on Artificial Intelligence (AAAI-25, Oral)",
+      "releaseDate": "2025-02-01",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34079/36234",
+      "summary": "A framework that incorporates temporal information into model-agnostic local explanation techniques."
+    },
+    {
+      "name": "ConLUX: Concept-Based Local Unified Explanations",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2024-10-01",
+      "url": "https://arxiv.org/pdf/2410.12439",
+      "summary": "A concept-based local unified explanation method for machine learning models."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Research",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Explainable AI",
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Cantonese",
+      "fluency": "Learning",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Explainable AI",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Model-agnostic explanations",
+        "Concept-based explanations",
+        "LLM explanations"
+      ]
+    }
+  ]
+}
