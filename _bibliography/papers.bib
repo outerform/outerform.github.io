@@ -53,6 +53,18 @@
   abstract={As Large Language Models (LLMs) scale to handle massive context windows, achieving surgical feature-level interpretation is essential for high-stakes tasks like legal auditing and code debugging. However, existing local model-agnostic explanation methods face a critical dilemma in these scenarios: feature-based methods suffer from attribution dilution due to high feature dimensionality, thus failing to provide faithful explanations. In this paper, we propose Focus-LIME, a coarse-to-fine framework designed to restore the tractability of surgical interpretation. Focus-LIME utilizes a proxy model to curate the perturbation neighborhood, allowing the target model to perform fine-grained attribution exclusively within the optimized context. Empirical evaluations on long-context benchmarks demonstrate that our method makes surgical explanations practicable and provides faithful explanations to users.}
 }
 
+@article{yu2026wasd,
+  title={WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior},
+  author={Yu, Haonan and Liu, Junhao and Yan, Zhenyu and Lin, Haoran and Zhang, Xin},
+  journal={arXiv preprint arXiv:2603.18474},
+  year={2026},
+  abbr={Preprint},
+  pdf={https://arxiv.org/pdf/2603.18474},
+  arxiv={2603.18474},
+  preview={wasd.jpg},
+  abstract={Precise behavioral control of large language models (LLMs) is critical for complex applications. However, existing methods often incur high training costs, lack natural language controllability, or compromise semantic coherence. To bridge this gap, we propose WASD (unWeaving Actionable Sufficient Directives), a novel framework that explains model behavior by identifying sufficient neural conditions for token generation. Our method represents candidate conditions as neuron-activation predicates and iteratively searches for a minimal set that guarantees the current output under input perturbations. Experiments on SST-2 and CounterFact with the Gemma-2-2B model demonstrate that our approach produces explanations that are more stable, accurate, and concise than conventional attribution graphs. Moreover, through a case study on controlling cross-lingual output generation, we validated the practical effectiveness of WASD in controlling model behavior.}
+}
+
 @article{liu2025budget,
   title={Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models},
   author={Liu, Junhao and Yu, Haonan and Zhang, Xin},
