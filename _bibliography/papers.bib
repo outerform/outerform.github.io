@@ -65,6 +65,18 @@
   abstract={Precise behavioral control of large language models (LLMs) is critical for complex applications. However, existing methods often incur high training costs, lack natural language controllability, or compromise semantic coherence. To bridge this gap, we propose WASD (unWeaving Actionable Sufficient Directives), a novel framework that explains model behavior by identifying sufficient neural conditions for token generation. Our method represents candidate conditions as neuron-activation predicates and iteratively searches for a minimal set that guarantees the current output under input perturbations. Experiments on SST-2 and CounterFact with the Gemma-2-2B model demonstrate that our approach produces explanations that are more stable, accurate, and concise than conventional attribution graphs. Moreover, through a case study on controlling cross-lingual output generation, we validated the practical effectiveness of WASD in controlling model behavior.}
 }
 
+@article{li2026loris,
+  title={Guiding LLM-based Loop Invariant Synthesis via Feedback on Local Reasoning Errors},
+  author={Li, Tianchi and Yan*, Zhenyu and Liu*, Junhao and Di, Peng and Zhang, Xin},
+  journal={ACM Transactions on Programming Languages and Systems},
+  year={2026},
+  abbr={TOPLAS},
+  selected={true},
+  preview={loris.jpg},
+  annotation={* Equal contribution},
+  abstract={We propose a novel framework that provides constructive feedback to an LLM in the "guess-and-check" paradigm by formally verifying its own thinking process and detecting local reasoning errors. We apply this framework to the loop invariant synthesis problem. We prompt the model to produce a step-by-step natural language proof justifying its thinking process for the failed verification condition of its generated loop invariants. Then, we use an LLM to translate the reasoning steps into first-order logic implications, which can be checked automatically. An invalid implication pinpoints the exact logical flaw in the LLM's thinking process, which we then use to construct targeted feedback for refinement. We have implemented our approach in a tool called LORIS and evaluated it on a main benchmark suite of 460 C programs and an additional benchmark suite of 50 C programs each of which involves non-linear properties. On the main benchmark suite, LORIS solved 445 of the programs, and achieved an overall success rate of 93.1%. LORIS also demonstrates robustness on the challenging non-linear benchmark suite.}
+}
+
 @article{liu2025budget,
   title={Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models},
   author={Liu, Junhao and Yu, Haonan and Zhang, Xin},
