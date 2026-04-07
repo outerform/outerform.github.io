@@ -13,8 +13,18 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+## Publications
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @inproceedings,@article[abbr!=Preprint] %}
+
+</div>
+
+## Preprints
+
+<div class="publications">
+
+{% bibliography --query @article[abbr=Preprint] %}
 
 </div>
