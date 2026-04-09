@@ -12,8 +12,17 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+            title="Download CV (English)"
+            ><i class="fa-solid fa-file-pdf"></i> EN</a>
+        {% endif %}
+        {% if page.cv_pdf_zh %}
+          <a
+            href="{{ page.cv_pdf_zh | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right me-2"
+            title="下载简历（中文）"
+            ><i class="fa-solid fa-file-pdf"></i> 中</a>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -58,8 +67,17 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+            title="Download CV (English)"
+            ><i class="fa-solid fa-file-pdf"></i> EN</a>
+        {% endif %}
+        {% if page.cv_pdf_zh %}
+          <a
+            href="{{ page.cv_pdf_zh | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right me-2"
+            title="下载简历（中文）"
+            ><i class="fa-solid fa-file-pdf"></i> 中</a>
         {% endif %}
       </h1>
       {% if page.description %}

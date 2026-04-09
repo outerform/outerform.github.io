@@ -27,4 +27,4 @@ I was previously active in competitive programming, having earned several gold m
 In my spare time, I enjoy sim racing and am a fan of the Formula 1 racing series — especially the Scuderia Ferrari team (tifosi). I'm hoping to see them win the championship in ~~2025~~ 2026.
 
 The most important lesson learned in programming language lab is to learn more languages.
-除咗英文同普通話，我亦學緊粵語，咁我哋都可以用一齊練習粵語。
+除咗英文同普通話，我亦學緊粵語，歡迎同我一齊練習！
