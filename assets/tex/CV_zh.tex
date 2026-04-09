@@ -1,0 +1,207 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[UTF8]{ctex}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+%----------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+
+\begin{document}
+
+
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large 刘俊豪} \vspace{0.1cm}\\
+
+  \textbf{地址:} 北京大学新燕园校区 & \textbf{电话:} 185-1898-0742 \\
+
+  \textbf{主页:} https://outerform.site & \textbf{电子邮件:} \href{mailto:liujunhao@pku.edu.cn}{liujunhao@pku.edu.cn}\\
+\end{tabular*}
+
+\leftskip=1.5em
+\section{研究兴趣}
+我的研究方向为可解释人工智能（XAI），致力于开发透明、可理解的机器学习技术。具体而言，我关注研发能帮助人们理解、信任、有效利用和控制复杂AI系统的可解释性方法。
+
+%-----------EDUCATION-----------------
+\section{教育背景}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {北京大学·计算机学院·程序设计语言研究室}{博士研究生 | 计算机软件与理论}
+      {导师：张昕}{2022.9 -- 2027.6（预计）}
+    \resumeSubheading
+      {北京大学·信息科学技术学院}{学士 | 计算机科学与技术}
+      {GPA排名前11\%，北京市优秀毕业生}{2018.9 -- 2022.6}
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------------
+\section{论文发表}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/abs/2505.12509}{Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models.} ACL 2026 主会。\vspace{0.2cm}\\
+    {\small \textbf{摘要：}大语言模型的模型无关解释因高昂的扰动成本而难以实现。我们提出基于代理模型的解释框架，通过筛选-应用机制将低成本模型的解释迁移至目标LLM，以仅11\%的成本实现90\%以上的解释保真度，并在提示压缩和有毒样本移除等下游任务中验证了其有效性。}
+
+    \item \textbf{Liu, Junhao}, and Xin Zhang. \href{https://ojs.aaai.org/index.php/AAAI/article/view/34079/36234}{ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques.} AAAI 2025 (Oral, 4.68\%)。\vspace{0.2cm}\\
+        {\small \textbf{摘要：}现有模型无关局部解释技术未能考虑时序信息，在处理变长输入模型时效果不佳。我们提出通用框架 \textsc{ReX}，通过改进采样过程与代理特征统一引入时序信息，并在 Anchors、LIME 和 Kernel SHAP 上进行了实例化。实验结果表明，\textsc{ReX} 显著提升了解释保真度，超越了现有模型专用解释技术。}
+
+    \item Li, Tianchi, Zhenyu Yan\textsuperscript{*}, \textbf{Junhao Liu}\textsuperscript{*}, Peng Di, and Xin Zhang. \href{https://dl.acm.org/doi/10.1145/3806652}{Guiding LLM-based Loop Invariant Synthesis via Feedback on Local Reasoning Errors.} TOPLAS, 2026.\vspace{0.2cm}\\
+        {\small \textbf{摘要：}我们提出一种新框架，通过形式化验证LLM的推理过程来检测局部逻辑错误，并据此提供针对性反馈。将该框架应用于循环不变式合成问题，所实现的工具 LORIS 在460个C程序上取得了93.1\%的成功率，并在非线性属性基准上表现出良好的鲁棒性。}
+\end{itemize}
+\vspace{-8pt}
+{\small \hfill \textsuperscript{*}共同贡献}
+
+\section{预印本}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Liu, Junhao}, Haonan Yu, Zhenyu Yan, and Xin Zhang. \href{https://arxiv.org/abs/2602.04607}{Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection.} arXiv:2602.04607 (2026).\vspace{0.2cm}\\
+        {\small \textbf{摘要：}随着LLM上下文窗口不断扩大，在高风险任务中实现精细的特征级解释愈发重要。我们提出 Focus-LIME，通过代理模型筛选扰动邻域，使目标模型仅在优化后的上下文内进行细粒度归因，实验验证了该方法的可行性与忠实性。}
+
+    \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/pdf/2410.12439}{ConLUX: Concept-Based Local Unified Explanations.} arXiv:2410.12439 (2024). \vspace{0.2cm}\\
+        {\small \textbf{摘要：}现有基于概念的模型无关解释方法局限于归因形式。我们提出通用框架 ConLUX，利用大模型扰动将现有局部解释技术统一扩展为基于概念的解释，支持归因、充分条件和反事实三种形式。在文本、图像与多模态模型上的评估表明，ConLUX 显著提升了解释的保真度与可理解性。}
+
+    \item Yu, Haonan, \textbf{Junhao Liu}, Zhenyu Yan, Haoran Lin, and Xin Zhang. \href{https://arxiv.org/abs/2603.18474}{WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior.} arXiv:2603.18474 (2026).\vspace{0.2cm}\\
+        {\small \textbf{摘要：}我们提出 WASD 框架，通过定位token生成的充分神经元条件来解释和控制模型行为。该方法将候选条件建模为神经元激活谓词，并迭代搜索保证当前输出的最小集合。实验表明，所得解释比传统归因图更稳定、准确且简洁。}
+
+    \item Yu, Haonan, \textbf{Junhao Liu}, and Xin Zhang. \href{https://arxiv.org/abs/2502.11068}{MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation.} arXiv:2502.11068 (2025). \\
+    {\small \textbf{摘要：}Anchors 因计算开销大而难以实际部署。我们提出基于记忆的加速框架，通过缓存与复用历史解释中的中间结果，经横向和纵向转换适配新输入。在表格、文本与图像数据上的实验表明，该方法大幅缩短生成时间，同时保持解释质量。}
+\end{itemize}
+
+
+%-----------EXPERIENCE-----------------
+\section{实习经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {腾讯·研究实习生（青云计划）}{2025.7 -- 至今}
+      {混元多模态模型团队}{北京}
+      \resumeItemListStart
+        \resumeItem{研究内容}
+          {参与混元图像模型（HunyuanImage）的研发，专注于模型可解释性与可控性研究，探索对模型行为的透明理解与精准调控方法。}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------------
+\section{竞赛获奖与在校荣誉}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{竞赛获奖}{}
+     {\small
+     \begin{tabular*}{0.97\textwidth}{@{\hspace{1em}}l@{\extracolsep{\fill}}r}
+      ICPC EC-Final 金牌，亚洲区域赛金牌& 2018 -- 2021\\
+      CCPC 总决赛金牌，区域赛金牌& 2019 -- 2021 \\
+      NOI 金牌 & 2017
+    \end{tabular*}\vspace{-5pt}}
+    \item \textbf{学校奖励}{}
+        {\small
+     \begin{tabular*}{0.97\textwidth}{@{\hspace{1em}}l@{\extracolsep{\fill}}r}
+      优秀科研奖& 2023\\
+      北京市优秀毕业生& 2022 \\
+      国家奖学金、北京大学一等奖学金、北京大学三好学生标兵 & 2019 -- 2021
+    \end{tabular*}\vspace{-5pt}}
+\end{itemize}
+
+\section{其他项目经历}
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{MTML：无数据竞争与死锁的多线程语言} \hfill 2023.3 -- 2023.6 \vspace{0.2cm}\\
+    {\small 基于 OCaml 开发多线程编程语言 MTML，通过类型系统从根源上避免死锁与数据争用。项目开源于 Github: \href{https://github.com/outerform/DPPL-project}{https://github.com/outerform/DPPL-project}。}
+
+    \item \textbf{基于用户的协同过滤算法的分布式实现与效率对比} \hfill
+    2023.5 -- 2023.6 \vspace{0.2cm}\\
+    {\small 分别使用 Spark 和 Hadoop 实现基于用户的协同过滤算法，并对两者的运行效率进行比较。结果表明 Spark 在整体上表现出更高的执行效率。}
+
+    \item \textbf{EasyFile：自动化电子文档处理工具} \hfill 2021.9 -- 2021.12 \vspace{0.2cm}\\
+    {\small 针对 Office 文档、PDF 等处理中的重复性工作，开发自动化工具 EasyFile。项目开源于 GitHub：\href{https://github.com/Yibo-He/EasyFile}{https://github.com/Yibo-He/EasyFile}。}
+
+    \item \textbf{基于启发式 EuSolver 的语法制导程序合成器} \hfill 2021.12 -- 2022.1 \vspace{0.2cm}\\
+    {\small 实现结合SMT求解器的语法制导程序合成方法，针对 CLIA 与程序结构设计启发式规则，提升合成效率与效果。}
+
+    \item \textbf{Java 指针分析器} \hfill 2021.9 -- 2021.11 \vspace{0.2cm}\\
+    {\small 开发支持流敏感、上下文敏感与域敏感分析的 Java 指针分析工具，用于辅助检测内存相关缺陷。}
+
+\end{itemize}
+
+\section{教学经历（助教）}
+
+\begin{tabularx}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{概率编程导论}（研究生课） & {2024春}\\
+      \textbf{离散数学导论} & {2024秋}\\
+      \textbf{程序设计实习} & {2023春}\\
+      \textbf{计算概论(B)} & {2022秋}\\
+      \textbf{数据结构与算法实习} & {2020秋}
+\end{tabularx}
+
+%--------PROFESSIONAL SKILLS------------
+\section{专业技能与兴趣爱好}
+  \resumeSubHeadingListStart
+  \resumeSubItem{开发能力}{常用C/C++、Python；熟悉Linux、Git、Docker等工具的使用}
+  \resumeSubItem{语言能力}{英语六级628}
+  \resumeSubItem{兴趣爱好}{游泳，长跑，模拟赛车}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
