@@ -5,7 +5,7 @@
     "image": "",
     "email": "liujunhao@pku.edu.cn",
     "url": "https://outerform.site",
-    "summary": "A PhD student at Peking University, researching eXplainable Artificial Intelligence (XAI).",
+    "summary": "A PhD student at Peking University, researching eXplainable Artificial Intelligence (XAI). Dedicated to developing explainability technologies that help humans understand, trust, utilize, and control complex AI systems.",
     "location": {
       "city": "Beijing",
       "countryCode": "CN",
@@ -26,7 +26,7 @@
       "url": "",
       "startDate": "2025-07-01",
       "endDate": "",
-      "summary": "Conducting research and development on HunyuanImage models. Improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior.",
+      "summary": "Conducting research and development on HunyuanImage models, focusing on improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior.",
       "highlights": []
     }
   ],
@@ -40,7 +40,7 @@
       "startDate": "2022-09-01",
       "endDate": "2027-06-01",
       "score": "",
-      "courses": ["Advisor: Prof. Xin Zhang", "Research on eXplainable Artificial Intelligence (XAI)"]
+      "courses": ["Advisor: Prof. Xin Zhang"]
     },
     {
       "institution": "Peking University, School of EECS",
@@ -54,46 +54,168 @@
       "courses": ["Outstanding Graduate of Beijing"]
     }
   ],
+  "publications": [
+    {
+      "name": "Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models",
+      "publisher": "ACL 2026, Main Conference",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2505.12509",
+      "summary": "A proxy-based explanation framework that transfers explanations from budget-friendly models to expensive LLMs, achieving over 90% fidelity at only 11% of the cost."
+    },
+    {
+      "name": "ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques",
+      "publisher": "AAAI 2025 (Oral, 4.68%)",
+      "releaseDate": "2025",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34079/36234",
+      "summary": "A general framework that incorporates temporal information into model-agnostic local explanation techniques such as Anchors, LIME, and Kernel SHAP."
+    },
+    {
+      "name": "Guiding LLM-based Loop Invariant Synthesis via Feedback on Local Reasoning Errors",
+      "publisher": "TOPLAS, 2026",
+      "releaseDate": "2026",
+      "url": "https://dl.acm.org/doi/10.1145/3806652",
+      "summary": "A framework that provides constructive feedback to LLMs by formally verifying their reasoning process. The tool LORIS achieved 93.1% success rate on 460 C programs."
+    }
+  ],
+  "preprints": [
+    {
+      "name": "Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection",
+      "publisher": "arXiv:2602.04607",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2602.04607",
+      "summary": "A coarse-to-fine framework for surgical feature-level interpretation of long-context LLMs via proxy-based neighborhood selection."
+    },
+    {
+      "name": "ConLUX: Concept-Based Local Unified Explanations",
+      "publisher": "arXiv:2410.12439",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2410.12439",
+      "summary": "A general framework that extends local model-agnostic techniques to concept-based explanations supporting attributions, sufficient conditions, and counterfactuals."
+    },
+    {
+      "name": "WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior",
+      "publisher": "arXiv:2603.18474",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2603.18474",
+      "summary": "A framework that explains model behavior by identifying sufficient neural conditions for token generation."
+    },
+    {
+      "name": "MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation",
+      "publisher": "arXiv:2502.11068",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2502.11068",
+      "summary": "A memorization-based acceleration framework for Anchors that significantly reduces explanation generation time while maintaining fidelity."
+    }
+  ],
   "awards": [
+    {
+      "title": "Outstanding Research Award",
+      "date": "2023-01-01",
+      "awarder": "Peking University",
+      "summary": ""
+    },
+    {
+      "title": "Outstanding Graduate of Beijing",
+      "date": "2022-06-01",
+      "awarder": "Beijing Municipal Education Commission",
+      "summary": ""
+    },
+    {
+      "title": "National Scholarship",
+      "date": "2021-01-01",
+      "awarder": "Ministry of Education of China",
+      "summary": ""
+    },
+    {
+      "title": "Gold Medals, ICPC EC-Final and Asia Regional Contests",
+      "date": "2021-01-01",
+      "awarder": "ICPC Foundation",
+      "summary": "2018 - 2021"
+    },
+    {
+      "title": "Gold Medals, CCPC Finals and Regional Contests",
+      "date": "2021-01-01",
+      "awarder": "China Computer Federation",
+      "summary": "2019 - 2021"
+    },
     {
       "title": "Gold Medal, National Olympiad in Informatics (NOI)",
       "date": "2017-07-01",
       "awarder": "China Computer Federation",
       "summary": ""
-    },
-    {
-      "title": "Gold Medals, ICPC Asia-East Continental Final and Regional Contests",
-      "date": "2020-01-01",
-      "awarder": "ICPC Foundation",
-      "summary": ""
     }
   ],
-  "publications": [
+  "volunteer": [
     {
-      "name": "ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques",
-      "publisher": "AAAI Conference on Artificial Intelligence (AAAI-25, Oral)",
-      "releaseDate": "2025-02-01",
-      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34079/36234",
-      "summary": "A framework that incorporates temporal information into model-agnostic local explanation techniques."
+      "organization": "Peking University",
+      "position": "Teaching Assistant",
+      "url": "",
+      "startDate": "2020-09-01",
+      "endDate": "2024-12-31",
+      "summary": "",
+      "highlights": [
+        "Introduction to Probabilistic Programming (Graduate Course) - Spring 2024",
+        "Introduction to Discrete Mathematics - Fall 2024",
+        "Programming Practice - Spring 2023",
+        "Introduction to Computation (B) - Fall 2022",
+        "Data Structures and Algorithms Practice - Fall 2020"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MTML: A Multi-threaded Language without Data Races and Deadlocks",
+      "summary": "Designed a multi-threaded programming language based on OCaml, leveraging a type system to statically prevent data races and deadlocks.",
+      "highlights": [],
+      "startDate": "2023-03-01",
+      "endDate": "2023-06-01",
+      "url": "https://github.com/outerform/DPPL-project"
     },
     {
-      "name": "ConLUX: Concept-Based Local Unified Explanations",
-      "publisher": "arXiv preprint",
-      "releaseDate": "2024-10-01",
-      "url": "https://arxiv.org/pdf/2410.12439",
-      "summary": "A concept-based local unified explanation method for machine learning models."
+      "name": "User-based Collaborative Filtering (Distributed)",
+      "summary": "Implemented user-based collaborative filtering using Spark and Hadoop, with a comparative study showing Spark's superior efficiency on large-scale workloads.",
+      "highlights": [],
+      "startDate": "2023-05-01",
+      "endDate": "2023-06-01",
+      "url": ""
+    },
+    {
+      "name": "EasyFile: Automated Document Processing Tool",
+      "summary": "Developed an automated tool for Office and PDF processing, supporting format editing and information extraction.",
+      "highlights": [],
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-01",
+      "url": "https://github.com/Yibo-He/EasyFile"
+    },
+    {
+      "name": "Heuristic EuSolver-based Program Synthesizer",
+      "summary": "Built a syntax-guided program synthesizer with heuristic rules for CLIA, improving efficiency over standard SMT-based approaches.",
+      "highlights": [],
+      "startDate": "2021-12-01",
+      "endDate": "2022-01-01",
+      "url": ""
+    },
+    {
+      "name": "Java Pointer Analyzer",
+      "summary": "Implemented a Java pointer analysis tool supporting flow-, context-, and field-sensitive analysis for memory-related bug detection.",
+      "highlights": [],
+      "startDate": "2021-09-01",
+      "endDate": "2021-11-01",
+      "url": ""
     }
   ],
   "skills": [
     {
+      "name": "Programming",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["C/C++", "Python", "Linux", "Git", "Docker"]
+    },
+    {
       "name": "Research",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Explainable AI",
-        "Machine Learning",
-        "Deep Learning"
-      ]
+      "keywords": ["Explainable AI", "Machine Learning", "Large Language Models"]
     }
   ],
   "languages": [
@@ -104,7 +226,7 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Fluent (CET-6: 628)",
       "icon": ""
     },
     {
@@ -120,8 +242,13 @@
       "keywords": [
         "Model-agnostic explanations",
         "Concept-based explanations",
-        "LLM explanations"
+        "LLM interpretability and control"
       ]
+    },
+    {
+      "name": "Hobbies",
+      "icon": "fa-solid fa-heart",
+      "keywords": ["Swimming", "Long-distance Running", "Sim Racing"]
     }
   ]
 }
