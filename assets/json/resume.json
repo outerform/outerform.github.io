@@ -63,6 +63,13 @@
       "summary": "A proxy-based explanation framework that transfers explanations from budget-friendly models to expensive LLMs, achieving over 90% fidelity at only 11% of the cost."
     },
     {
+      "name": "Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection",
+      "publisher": "IJCAI-ECAI 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2602.04607",
+      "summary": "A coarse-to-fine framework for surgical feature-level interpretation of long-context LLMs via proxy-based neighborhood selection."
+    },
+    {
       "name": "ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques",
       "publisher": "AAAI 2025 (Oral, 4.68%)",
       "releaseDate": "2025",
@@ -75,16 +82,16 @@
       "releaseDate": "2026",
       "url": "https://dl.acm.org/doi/10.1145/3806652",
       "summary": "A framework that provides constructive feedback to LLMs by formally verifying their reasoning process. The tool LORIS achieved 93.1% success rate on 460 C programs."
+    },
+    {
+      "name": "MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation",
+      "publisher": "ICML 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2502.11068",
+      "summary": "A memorization-based acceleration framework for Anchors that significantly reduces explanation generation time while maintaining fidelity."
     }
   ],
   "preprints": [
-    {
-      "name": "Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection",
-      "publisher": "arXiv:2602.04607",
-      "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2602.04607",
-      "summary": "A coarse-to-fine framework for surgical feature-level interpretation of long-context LLMs via proxy-based neighborhood selection."
-    },
     {
       "name": "ConLUX: Concept-Based Local Unified Explanations",
       "publisher": "arXiv:2410.12439",
@@ -98,13 +105,6 @@
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2603.18474",
       "summary": "A framework that explains model behavior by identifying sufficient neural conditions for token generation."
-    },
-    {
-      "name": "MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation",
-      "publisher": "arXiv:2502.11068",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2502.11068",
-      "summary": "A memorization-based acceleration framework for Anchors that significantly reduces explanation generation time while maintaining fidelity."
     }
   ],
   "awards": [

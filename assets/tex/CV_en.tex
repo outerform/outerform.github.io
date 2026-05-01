@@ -105,28 +105,28 @@ My research area is Explainable Artificial Intelligence (XAI), dedicated to deve
     \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/abs/2505.12509}{Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models.} ACL 2026, Main Conference.\vspace{0.2cm}\\
         {\small \textbf{Abstract:} Model-agnostic explanations for large language models are often prohibitively expensive due to extensive perturbation costs. We propose a proxy-based explanation framework that transfers explanations from budget-friendly models to expensive LLMs with a screen-and-apply strategy. Our approach achieves over 90\% fidelity at only 11\% of the cost, and remains effective for downstream tasks such as prompt compression and poisoned example removal.}
 
+    \item \textbf{Liu, Junhao}, Haonan Yu, Zhenyu Yan, and Xin Zhang. \href{https://arxiv.org/abs/2602.04607}{Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection.} IJCAI-ECAI 2026.\vspace{0.2cm}\\
+        {\small \textbf{Abstract:} As LLMs scale to handle massive context windows, achieving surgical feature-level interpretation is essential for high-stakes tasks. We propose Focus-LIME, a coarse-to-fine framework that utilizes a proxy model to curate the perturbation neighborhood, allowing the target model to perform fine-grained attribution exclusively within the optimized context. Empirical evaluations demonstrate that our method makes surgical explanations practicable and faithful.}
+
     \item \textbf{Liu, Junhao}, and Xin Zhang. \href{https://ojs.aaai.org/index.php/AAAI/article/view/34079/36234}{ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques.} AAAI 2025 (Oral, 4.68\%).\vspace{0.2cm}\\
         {\small \textbf{Abstract:} Existing model-agnostic local explanation techniques perform poorly on models with variable input lengths because they fail to consider temporal information. To address this, we propose a general framework \textsc{ReX} that incorporates temporal information by optimizing the sampling process and surrogate features. We implement \textsc{ReX} on Anchors, LIME, and Kernel SHAP, and validate its effectiveness across six models on three tasks. Results show that \textsc{ReX} significantly improves explanation fidelity, surpassing state-of-the-art model-specific techniques and helping users better understand model behavior.}
 
     \item Li, Tianchi, Zhenyu Yan\textsuperscript{*}, \textbf{Junhao Liu}\textsuperscript{*}, Peng Di, and Xin Zhang. \href{https://dl.acm.org/doi/10.1145/3806652}{Guiding LLM-based Loop Invariant Synthesis via Feedback on Local Reasoning Errors.} TOPLAS, 2026.\vspace{0.2cm}\\
         {\small \textbf{Abstract:} We propose a novel framework that provides constructive feedback to an LLM by formally verifying its own thinking process and detecting local reasoning errors. Applied to loop invariant synthesis, our tool LORIS achieved an overall success rate of 93.1\% on a benchmark suite of 460 C programs and demonstrates robustness on challenging non-linear benchmarks.}
+
+    \item Yu, Haonan, \textbf{Junhao Liu}, and Xin Zhang. \href{https://arxiv.org/abs/2502.11068}{MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation.} ICML 2026.\vspace{0.2cm}\\
+        {\small \textbf{Abstract:} Anchors is a widely used model-agnostic explanation method but suffers from high computational cost. We propose a memorization-based acceleration framework that generates general rules as initialization and refines them through feature transformations. Experiments on tabular, text, and image data show significant speedups while preserving explanation fidelity and interpretability.}
 \end{itemize}
 \vspace{-8pt}
 {\small \hfill \textsuperscript{*}Equal contribution}
 
 \section{Preprints}
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Liu, Junhao}, Haonan Yu, Zhenyu Yan, and Xin Zhang. \href{https://arxiv.org/abs/2602.04607}{Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection.} arXiv preprint arXiv:2602.04607 (2026).\vspace{0.2cm}\\
-        {\small \textbf{Abstract:} As LLMs scale to handle massive context windows, achieving surgical feature-level interpretation is essential for high-stakes tasks. We propose Focus-LIME, a coarse-to-fine framework that utilizes a proxy model to curate the perturbation neighborhood, allowing the target model to perform fine-grained attribution exclusively within the optimized context. Empirical evaluations demonstrate that our method makes surgical explanations practicable and faithful.}
-
     \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/pdf/2410.12439}{Concept-Based Local Unified Explanations.} arXiv preprint arXiv:2410.12439 (2024).\vspace{0.2cm}\\
         {\small \textbf{Abstract:} Existing concept-based model-agnostic explanation methods are limited to attribution and cannot support richer explanation forms. We propose ConLUX, a general framework that extends local model-agnostic techniques to concept-based explanations via large pre-trained model perturbations. ConLUX supports attributions, sufficient conditions, and counterfactuals, and provides more faithful explanations for text, image, and multimodal models.}
 
     \item Yu, Haonan, \textbf{Junhao Liu}, Zhenyu Yan, Haoran Lin, and Xin Zhang. \href{https://arxiv.org/abs/2603.18474}{WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior.} arXiv preprint arXiv:2603.18474 (2026).\vspace{0.2cm}\\
         {\small \textbf{Abstract:} We propose WASD, a novel framework that explains model behavior by identifying sufficient neural conditions for token generation. Our method represents candidate conditions as neuron-activation predicates and iteratively searches for a minimal set that guarantees the current output under input perturbations. Experiments demonstrate that our approach produces explanations that are more stable, accurate, and concise than conventional attribution graphs.}
-
-    \item Yu, Haonan, \textbf{Junhao Liu}, and Xin Zhang. \href{https://arxiv.org/abs/2502.11068}{MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation.} arXiv preprint arXiv:2502.11068 (2025).\vspace{0.2cm}\\
-        {\small \textbf{Abstract:} Anchors is a widely used model-agnostic explanation method but suffers from high computational cost. We propose a memorization-based acceleration framework that generates general rules as initialization and refines them through feature transformations. Experiments on tabular, text, and image data show significant speedups while preserving explanation fidelity and interpretability.}
 \end{itemize}
 
 

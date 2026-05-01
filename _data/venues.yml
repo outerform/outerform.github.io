@@ -2,6 +2,14 @@
   url: https://2026.aclweb.org/
   color: "#d42029"
 
+"ICML":
+  url: https://icml.cc/Conferences/2026
+  color: "#00a6d6"
+
+"IJCAI-ECAI":
+  url: https://2026.ijcai.org/
+  color: "#7a4cc2"
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"

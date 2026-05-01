@@ -14,12 +14,13 @@
   abstract={Post-hoc explanations provide transparency and are essential for guiding model optimization, such as prompt engineering and data sanitation. However, applying model-agnostic techniques to Large Language Models (LLMs) is hindered by prohibitive computational costs, rendering these tools dormant for real-world applications. To revitalize model-agnostic interpretability, we propose a budget-friendly proxy framework that leverages efficient models to approximate the decision boundaries of expensive LLMs. We introduce a screen-and-apply mechanism to statistically verify local alignment before deployment. Our empirical evaluation confirms that proxy explanations achieve over 90% fidelity with only 11% of the oracle's cost. Building on this foundation, we demonstrate the actionable utility of our framework in prompt compression and poisoned example removal. Results show that reliable proxy explanations effectively guide optimization, transforming interpretability from a passive observation tool into a scalable primitive for LLM development. Additionally, we open-source code and datasets to facilitate future research.}
 }
 
-@article{liu2026focuslime,
+@inproceedings{liu2026focuslime,
   title={Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection},
   author={Liu, Junhao and Yu, Haonan and Yan, Zhenyu and Zhang, Xin},
-  journal={arXiv preprint arXiv:2602.04607},
+  booktitle={Proceedings of the 35th International Joint Conference on Artificial Intelligence and the 28th European Conference on Artificial Intelligence (IJCAI-ECAI)},
   year={2026},
-  abbr={Preprint},
+  abbr={IJCAI-ECAI},
+  selected={true},
   pdf={https://arxiv.org/pdf/2602.04607},
   arxiv={2602.04607},
   preview={focuslime.jpg},
@@ -32,7 +33,6 @@
   journal={ACM Transactions on Programming Languages and Systems},
   year={2026},
   abbr={TOPLAS},
-  selected={true},
   preview={loris.jpg},
   annotation={* Equal contribution},
   doi={10.1145/3806652},
@@ -68,12 +68,13 @@
   abstract={Existing local model-agnostic explanation techniques are ineffective for machine learning models that consider inputs of variable lengths, as they do not consider temporal information embedded in these models. To address this limitation, we propose ReX, a general framework for incorporating temporal information in these techniques. Our key insight is that these techniques typically learn a model surrogate by sampling model inputs and outputs, and we can incorporate temporal information in a uniform way by only changing the sampling process and the surrogate features. We instantiate our approach on three popular explanation techniques: Anchors, LIME, and Kernel SHAP. To evaluate the effectiveness of ReX, we apply our approach to six models in three different tasks. Our evaluation results demonstrate that our approach 1) significantly improves the fidelity of explanations, making model-agnostic techniques outperform a state-of-the-art model-specific technique on its target model, and 2) helps end users better understand the models' behaviors.}
 }
 
-@article{yu2025accelerating,
+@inproceedings{yu2026accelerating,
   title={MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation},
   author={Yu, Haonan and Liu, Junhao and Zhang, Xin},
-  journal={arXiv preprint arXiv:2502.11068},
-  year={2025},
-  abbr={Preprint},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  year={2026},
+  abbr={ICML},
+  selected={true},
   pdf={https://arxiv.org/pdf/2502.11068},
   arxiv={2502.11068},
   preview={manchors.jpg},
