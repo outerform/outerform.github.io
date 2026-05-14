@@ -230,6 +230,7 @@ exclude:
   - FAQ.md
   - Gemfile
   - Gemfile.lock
+  - github-repo/
   - INSTALL.md
   - LICENSE
   - lighthouse_results/
@@ -238,6 +239,14 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - .private_cv/
+  - private_cv/
+  - assets/pdf/CV_en_private.pdf
+  - assets/pdf/CV_zh_private.pdf
+  - assets/tex/CV_en_private.tex
+  - assets/tex/CV_zh_private.tex
+  - assets/tex/CV_en_private.pdf
+  - assets/tex/CV_zh_private.pdf
   - vendor
 keep_files:
   - CNAME

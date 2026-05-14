@@ -66,6 +66,10 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
+\newcommand{\CVPhoneFieldZH}{}
+\ifdefined\CVPhone
+  \renewcommand{\CVPhoneFieldZH}{& \textbf{电话:} \CVPhone}
+\fi
 
 %----------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%
@@ -79,9 +83,9 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\Large 刘俊豪} \vspace{0.1cm}\\
 
-  \textbf{地址:} 北京大学新燕园校区 & \textbf{电话:} [redacted] \\
+  \textbf{地址:} 北京大学新燕园校区 & \textbf{电子邮件:} \href{mailto:liujunhao@pku.edu.cn}{liujunhao@pku.edu.cn} \\
 
-  \textbf{主页:} https://outerform.site & \textbf{电子邮件:} \href{mailto:liujunhao@pku.edu.cn}{liujunhao@pku.edu.cn}\\
+  \textbf{主页:} https://outerform.site \CVPhoneFieldZH \\
 \end{tabular*}
 
 \leftskip=1.5em
@@ -103,7 +107,7 @@
 %-----------PUBLICATIONS-----------------
 \section{论文发表}
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/abs/2505.12509}{Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models.} ACL 2026 主会。\vspace{0.2cm}\\
+    \item \textbf{Liu, Junhao}, Haonan Yu, Zhenyu Yan, and Xin Zhang. \href{https://arxiv.org/abs/2505.12509}{Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models.} ACL 2026 主会。\vspace{0.2cm}\\
     {\small \textbf{摘要：}大语言模型的模型无关解释因高昂的扰动成本而难以实现。我们提出基于代理模型的解释框架，通过筛选-应用机制将低成本模型的解释迁移至目标LLM，以仅11\%的成本实现90\%以上的解释保真度，并在提示压缩和有毒样本移除等下游任务中验证了其有效性。}
 
     \item \textbf{Liu, Junhao}, Haonan Yu, Zhenyu Yan, and Xin Zhang. \href{https://arxiv.org/abs/2602.04607}{Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection.} IJCAI-ECAI 2026。\vspace{0.2cm}\\

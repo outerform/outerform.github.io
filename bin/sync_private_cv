@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+private_repo_path="${PRIVATE_CV_REPO_PATH:-/Users/outerliu/github-repo/private_cv}"
+private_repo_url="${PRIVATE_CV_REPO_URL:-git@github.com:outerform/private_cv.git}"
+commit_message="${PRIVATE_CV_COMMIT_MESSAGE:-Update private CV PDFs}"
+
+die() {
+  printf 'sync_private_cv: %s\n' "$*" >&2
+  exit 1
+}
+
+require_cmd() {
+  command -v "$1" >/dev/null 2>&1 || die "required command not found: $1"
+}
+
+[[ -n "${CV_PHONE:-}" ]] || die "CV_PHONE is required, e.g. CV_PHONE=\"185-xxxx-xxxx\" bin/sync_private_cv"
+printf '%s' "$CV_PHONE" | grep -Eq '^[0-9+() .-]+$' || die "CV_PHONE may only contain digits, spaces, '+', '-', '.', and parentheses"
+
+require_cmd git
+require_cmd latexmk
+require_cmd pdflatex
+require_cmd xelatex
+
+[[ -d "$private_repo_path/.git" ]] || die "private CV repo not found at $private_repo_path; clone it first: git clone $private_repo_url $private_repo_path"
+
+actual_remote="$(git -C "$private_repo_path" remote get-url origin 2>/dev/null || true)"
+[[ "$actual_remote" == "$private_repo_url" ]] || die "private repo origin is '$actual_remote', expected '$private_repo_url'"
+
+work_dir="$(mktemp -d /private/tmp/private_cv.XXXXXX)"
+trap 'rm -rf "$work_dir"' EXIT
+
+cat > "$work_dir/CV_en_private.tex" <<EOF
+\def\CVPhone{$CV_PHONE}
+\input{$repo_root/assets/tex/CV_en.tex}
+EOF
+
+cat > "$work_dir/CV_zh_private.tex" <<EOF
+\def\CVPhone{$CV_PHONE}
+\input{$repo_root/assets/tex/CV_zh.tex}
+EOF
+
+(
+  cd "$work_dir"
+  latexmk -pdf -interaction=nonstopmode -halt-on-error CV_en_private.tex >/dev/null
+  latexmk -xelatex -interaction=nonstopmode -halt-on-error CV_zh_private.tex >/dev/null
+)
+
+cp "$work_dir/CV_en_private.pdf" "$private_repo_path/CV_en_private.pdf"
+cp "$work_dir/CV_zh_private.pdf" "$private_repo_path/CV_zh_private.pdf"
+
+git -C "$private_repo_path" add -- CV_en_private.pdf CV_zh_private.pdf
+
+if git -C "$private_repo_path" diff --cached --quiet -- CV_en_private.pdf CV_zh_private.pdf; then
+  printf 'Private CV PDFs are already up to date in %s\n' "$private_repo_path"
+  exit 0
+fi
+
+git -C "$private_repo_path" commit -m "$commit_message" -- CV_en_private.pdf CV_zh_private.pdf
+git -C "$private_repo_path" push origin HEAD
+
+printf 'Synced private CV PDFs to %s\n' "$private_repo_url"

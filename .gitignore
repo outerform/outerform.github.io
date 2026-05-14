@@ -11,3 +11,10 @@ assets/libs/
 node_modules/
 vendor
 .idea
+github-repo/
+.private_cv/
+private_cv/
+assets/pdf/CV_en_private.pdf
+assets/pdf/CV_zh_private.pdf
+assets/tex/CV_en_private.*
+assets/tex/CV_zh_private.*

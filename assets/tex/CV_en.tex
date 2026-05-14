@@ -65,6 +65,10 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
+\newcommand{\CVPhoneFieldEN}{}
+\ifdefined\CVPhone
+  \renewcommand{\CVPhoneFieldEN}{& \textbf{Phone:} \CVPhone}
+\fi
 
 %----------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%
@@ -80,7 +84,7 @@
 
   \textbf{Address:} Peking University (Xinyanyuan Campus), Beijing, China & \textbf{Email:} \href{mailto:liujunhao@pku.edu.cn}{liujunhao@pku.edu.cn} \\
 
-  \textbf{Homepage:} https://outerform.site \\
+  \textbf{Homepage:} https://outerform.site \CVPhoneFieldEN \\
 \end{tabular*}
 
 \leftskip=1.5em
@@ -102,7 +106,7 @@ My research area is Explainable Artificial Intelligence (XAI), dedicated to deve
 %-----------PUBLICATIONS-----------------
 \section{Publications}
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/abs/2505.12509}{Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models.} ACL 2026, Main Conference.\vspace{0.2cm}\\
+    \item \textbf{Liu, Junhao}, Haonan Yu, Zhenyu Yan, and Xin Zhang. \href{https://arxiv.org/abs/2505.12509}{Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models.} ACL 2026, Main Conference.\vspace{0.2cm}\\
         {\small \textbf{Abstract:} Model-agnostic explanations for large language models are often prohibitively expensive due to extensive perturbation costs. We propose a proxy-based explanation framework that transfers explanations from budget-friendly models to expensive LLMs with a screen-and-apply strategy. Our approach achieves over 90\% fidelity at only 11\% of the cost, and remains effective for downstream tasks such as prompt compression and poisoned example removal.}
 
     \item \textbf{Liu, Junhao}, Haonan Yu, Zhenyu Yan, and Xin Zhang. \href{https://arxiv.org/abs/2602.04607}{Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection.} IJCAI-ECAI 2026.\vspace{0.2cm}\\
