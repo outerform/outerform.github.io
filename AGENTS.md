@@ -89,6 +89,7 @@ related_posts: false
 
 - **CV sync**: The web CV (`assets/json/resume.json`) MUST stay in sync with the PDF CVs (`assets/tex/CV_en.tex` → `assets/pdf/CV.pdf`, `assets/tex/CV_zh.tex` → `assets/pdf/CV_zh.pdf`). When updating CV content, always update all three: tex sources, compiled PDFs, and resume.json.
 - **CV privacy**: Public CV sources, PDFs, JSON, and generated site output must not contain a phone number. Phone-enabled CV PDFs may only be generated locally with `CV_PHONE` and synced to the private repository `git@github.com:outerform/private_cv.git`; never commit phone numbers, private wrappers, or private PDFs to this public site repository.
+- **Private CV sync**: Every CV content update must also update the phone-enabled private CV PDFs via the `CV_PHONE` local generation flow and sync them to `git@github.com:outerform/private_cv.git`, in addition to updating the public phone-free CV files in this repository.
 - **Project Up = 青云计划**: Tencent internship program "Project Up" is called "青云计划" in Chinese.
 - **News only for accepted papers**: News announcements are only created for papers accepted at conferences/journals, not for preprints.
 - **Homepage news limit**: The homepage news list should show only the latest 4 announcements (`announcements.limit: 4` in `_config.yml`).

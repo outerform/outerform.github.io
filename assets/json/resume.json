@@ -57,10 +57,10 @@
   "publications": [
     {
       "name": "Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models",
-      "publisher": "ACL 2026, Main Conference",
+      "publisher": "ACL 2026, Main Conference (Oral, 4.12%)",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2505.12509",
-      "summary": "A proxy-based explanation framework that transfers explanations from budget-friendly models to expensive LLMs, achieving over 90% fidelity at only 11% of the cost."
+      "summary": "A proxy-based explanation framework that transfers explanations from budget-friendly models to expensive LLMs, achieving over 90% fidelity at only 9.5% of the cost."
     },
     {
       "name": "Focus-LIME: Surgical Interpretation of Long-Context Large Language Models via Proxy-Based Neighborhood Selection",
