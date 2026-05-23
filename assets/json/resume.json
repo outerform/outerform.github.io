@@ -52,6 +52,17 @@
       "endDate": "2022-06-01",
       "score": "GPA ranked top 11%",
       "courses": ["Outstanding Graduate of Beijing"]
+    },
+    {
+      "institution": "Chongqing No. 8 Secondary School",
+      "location": "Chongqing, China",
+      "url": "https://www.cqbz.cn/",
+      "area": "",
+      "studyType": "Secondary Education",
+      "startDate": "2012-09-01",
+      "endDate": "2018-06-01",
+      "score": "",
+      "courses": []
     }
   ],
   "publications": [
