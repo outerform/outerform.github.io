@@ -27,9 +27,14 @@
 - title: Internship Experience
   type: time_table
   contents:
+    - title: Research Intern (ACE top-talent intern)
+      institution: Xiaohongshu, Dots Team
+      year: Jun. 2026 - Present
+      description:
+        - Participating in large language model pre-training
     - title: Research Intern (Project Up)
       institution: Tencent, Hunyuan Multimodal Model Team
-      year: Jul. 2025 - Present
+      year: Jul. 2025 - May 2026
       description:
         - Conducting research and development on HunyuanImage models
         - Improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior

@@ -21,11 +21,20 @@
   },
   "work": [
     {
+      "name": "Xiaohongshu",
+      "position": "Research Intern (ACE top-talent intern), Dots Team",
+      "url": "",
+      "startDate": "2026-06-01",
+      "endDate": "",
+      "summary": "Participating in large language model pre-training.",
+      "highlights": []
+    },
+    {
       "name": "Tencent",
       "position": "Research Intern (Project Up), Hunyuan Multimodal Model Team",
       "url": "",
       "startDate": "2025-07-01",
-      "endDate": "",
+      "endDate": "2026-05-31",
       "summary": "Conducting research and development on HunyuanImage models, focusing on improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior.",
       "highlights": []
     }
