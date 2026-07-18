@@ -89,8 +89,8 @@
 \end{tabular*}
 
 \leftskip=1.5em
-\section{研究兴趣}
-我的研究方向为可解释人工智能（XAI），致力于开发透明、可理解的机器学习技术。具体而言，我关注研发能帮助人们理解、信任、有效利用和控制复杂AI系统的可解释性方法。
+\section{个人简介}
+我的研究聚焦可解释人工智能（XAI），尤其关注面向 LLM 与多模态模型的可扩展解释、优化与控制方法。除学术研究外，我在腾讯混元参与过多模态/图像生成模型研发，在小红书 Dots 团队参与大语言模型预训练数据建设，覆盖代码数据处理、数据混合配比配置与训练数据构建。长期算法竞赛训练（NOI 金牌、ICPC/CCPC 金牌）也为我提供了扎实的算法基础与工程实现能力。
 
 %-----------EDUCATION-----------------
 \section{教育背景}
@@ -104,6 +104,26 @@
     \resumeSubheading
       {重庆市第八中学校}{初中及高中}
       {}{2012.9 -- 2018.6}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{实习经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {小红书·研究实习生（Ace「顶尖实习生」计划）}{2026.6 -- 至今}
+      {Dots团队}{北京}
+      \resumeItemListStart
+        \resumeItem{工作内容}
+          {参与大语言模型预训练数据建设，负责代码数据处理、数据混合配比配置与训练数据构建。}
+      \resumeItemListEnd
+    \resumeSubheading
+      {腾讯·研究实习生（青云计划）}{2025.7 -- 2026.5}
+      {混元多模态模型团队}{北京}
+      \resumeItemListStart
+        \resumeItem{工作内容}
+          {参与混元图像模型（HunyuanImage）的研发，专注于模型可解释性与可控性研究，探索对模型行为的透明理解与精准调控方法。}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -126,36 +146,19 @@
     {\small \textbf{摘要：}Anchors 因计算开销大而难以实际部署。我们提出基于记忆的加速框架，通过缓存与复用历史解释中的中间结果，经横向和纵向转换适配新输入。在表格、文本与图像数据上的实验表明，该方法大幅缩短生成时间，同时保持解释质量。}
 \end{itemize}
 \vspace{-8pt}
-{\small \hfill \textsuperscript{*}共同贡献}
+{\small \hfill \textsuperscript{*}相同贡献}
 
 \section{预印本}
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/pdf/2410.12439}{ConLUX: Concept-Based Local Unified Explanations.} arXiv:2410.12439 (2024). \vspace{0.2cm}\\
+    \item \textbf{Liu, Junhao}, Jian-Wei Zhang, Tao Huang, Miles Yang, Zhao Zhong, and Liefeng Bo. \href{https://outerform.site/assets/pdf/papers/atlas.pdf}{Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models.}（2026）。\vspace{0.2cm}\\
+        {\small \textbf{摘要：}统一多模态大语言模型在可控图像生成中仍难以遵循复杂空间指令与逻辑约束。我们提出 ATLAS，以布局作为贯穿空间推理、显式物体规划与图像渲染的共享表示，形成 ``Think, Plan, and Paint'' 范式。ATLAS 在图像生成基准上取得了统一多模态模型中的领先表现，并通过同一布局接口支持指令引导编辑和多模态定位。}
+
+    \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/pdf/2410.12439}{ConLUX: Concept-Based Local Unified Explanations.}（2024）。 \vspace{0.2cm}\\
         {\small \textbf{摘要：}现有基于概念的模型无关解释方法局限于归因形式。我们提出通用框架 ConLUX，利用大模型扰动将现有局部解释技术统一扩展为基于概念的解释，支持归因、充分条件和反事实三种形式。在文本、图像与多模态模型上的评估表明，ConLUX 显著提升了解释的保真度与可理解性。}
 
-    \item Yu, Haonan, \textbf{Junhao Liu}, Zhenyu Yan, Haoran Lin, and Xin Zhang. \href{https://arxiv.org/abs/2603.18474}{WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior.} arXiv:2603.18474 (2026).\vspace{0.2cm}\\
+    \item Yu, Haonan, \textbf{Junhao Liu}, Zhenyu Yan, Haoran Lin, and Xin Zhang. \href{https://arxiv.org/abs/2603.18474}{WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior.}（2026）。\vspace{0.2cm}\\
         {\small \textbf{摘要：}我们提出 WASD 框架，通过定位token生成的充分神经元条件来解释和控制模型行为。该方法将候选条件建模为神经元激活谓词，并迭代搜索保证当前输出的最小集合。实验表明，所得解释比传统归因图更稳定、准确且简洁。}
 \end{itemize}
-
-
-%-----------EXPERIENCE-----------------
-\section{实习经历}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {小红书·研究实习生（Ace「顶尖实习生」计划）}{2026.6 -- 至今}
-      {Dots团队}{北京}
-      \resumeItemListStart
-        \resumeItem{研究内容}
-          {参与大语言模型预训练工作。}
-      \resumeItemListEnd
-    \resumeSubheading
-      {腾讯·研究实习生（青云计划）}{2025.7 -- 2026.5}
-      {混元多模态模型团队}{北京}
-      \resumeItemListStart
-        \resumeItem{研究内容}
-          {参与混元图像模型（HunyuanImage）的研发，专注于模型可解释性与可控性研究，探索对模型行为的透明理解与精准调控方法。}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
 
 
 %-----------AWARDS-----------------

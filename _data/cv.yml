@@ -31,7 +31,7 @@
       institution: Xiaohongshu, Dots Team
       year: Jun. 2026 - Present
       description:
-        - Participating in large language model pre-training
+        - Contributing to the data pipeline for large language model pre-training, with a focus on code data processing, data mixture configuration, and training dataset construction
     - title: Research Intern (Project Up)
       institution: Tencent, Hunyuan Multimodal Model Team
       year: Jul. 2025 - May 2026
@@ -49,14 +49,12 @@
       items:
         - Gold Medals, ICPC Asia-East Continental Final and Regional Contests
 
-- title: Academic Interests
-  type: nested_list
+- title: Profile
+  type: list
   contents:
-    - title: eXplainable Artificial Intelligence (XAI)
-      items:
-        - Model-agnostic local explanation techniques
-        - Concept-based explanations
-        - Explanations for Large Language Models
+    - PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), especially scalable methods for explaining, improving, and controlling LLMs and multimodal models.
+    - Hands-on MLLM and LLM pre-training experience from Tencent Hunyuan and Xiaohongshu, including image-generation model R&D, code data processing, data mixture configuration, and training dataset construction.
+    - Gold medalist in NOI and ICPC/CCPC, with a strong algorithmic and engineering foundation.
 
 - title: Other Interests
   type: list
