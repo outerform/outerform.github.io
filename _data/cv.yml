@@ -31,7 +31,7 @@
       institution: Xiaohongshu, Dots Team
       year: Jun. 2026 - Present
       description:
-        - Contributing to the data pipeline for large language model pre-training, with a focus on code data processing, data mixture configuration, and training dataset construction
+        - Contributing to large language model pre-training, with responsibility for code-corpus processing and multi-source data mixture strategy design
     - title: Research Intern (Project Up)
       institution: Tencent, Hunyuan Multimodal Model Team
       year: Jul. 2025 - May 2026
@@ -52,8 +52,8 @@
 - title: Profile
   type: list
   contents:
-    - PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), especially scalable methods for explaining, improving, and controlling LLMs and multimodal models.
-    - Hands-on MLLM and LLM pre-training experience from Tencent Hunyuan and Xiaohongshu, including image-generation model R&D, code data processing, data mixture configuration, and training dataset construction.
+    - PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), especially efficient methods for explaining LLMs and multimodal models, as well as explanation-guided model optimization and control.
+    - Hands-on pre-training experience with LLMs and multimodal/image-generation models.
     - Gold medalist in NOI and ICPC/CCPC, with a strong algorithmic and engineering foundation.
 
 - title: Other Interests

@@ -5,7 +5,7 @@
     "image": "",
     "email": "liujunhao@pku.edu.cn",
     "url": "https://outerform.site",
-    "summary": "A PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), with a focus on scalable methods for explaining, improving, and controlling LLMs and multimodal models. Experienced in MLLM and LLM pre-training through work on image-generation model R&D, code data processing, data mixture configuration, and training dataset construction. Gold medalist in NOI and ICPC/CCPC, with a strong algorithmic and engineering foundation.",
+    "summary": "A PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), with a focus on efficient methods for explaining LLMs and multimodal models, as well as explanation-guided model optimization and control. Experienced in pre-training LLMs and multimodal/image-generation models. This experience is complemented by gold medals in NOI and ICPC/CCPC and a strong algorithmic and engineering foundation.",
     "location": {
       "city": "Beijing",
       "countryCode": "CN",
@@ -26,7 +26,7 @@
       "url": "",
       "startDate": "2026-06-01",
       "endDate": "",
-      "summary": "Contributing to the data pipeline for large language model pre-training, with a focus on code data processing, data mixture configuration, and training dataset construction.",
+      "summary": "Contributing to large language model pre-training, with responsibility for code-corpus processing and multi-source data mixture strategy design.",
       "highlights": []
     },
     {
