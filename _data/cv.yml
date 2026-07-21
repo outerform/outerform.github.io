@@ -52,7 +52,7 @@
 - title: Profile
   type: list
   contents:
-    - PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), especially efficient methods for explaining LLMs and multimodal models, as well as explanation-guided model optimization and control.
+    - PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), especially high-performance and efficient explanation methods for LLMs and multimodal models, as well as explanation-guided model optimization and control.
     - Hands-on pre-training experience with LLMs and multimodal/image-generation models.
     - Gold medalist in NOI and ICPC/CCPC, with a strong algorithmic and engineering foundation.
 

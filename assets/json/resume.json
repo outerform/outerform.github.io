@@ -5,7 +5,7 @@
     "image": "",
     "email": "liujunhao@pku.edu.cn",
     "url": "https://outerform.site",
-    "summary": "A PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), with a focus on efficient methods for explaining LLMs and multimodal models, as well as explanation-guided model optimization and control. Experienced in pre-training LLMs and multimodal/image-generation models. This experience is complemented by gold medals in NOI and ICPC/CCPC and a strong algorithmic and engineering foundation.",
+    "summary": "A PhD student at Peking University working on eXplainable Artificial Intelligence (XAI), with a focus on high-performance and efficient explanation methods for LLMs and multimodal models, as well as explanation-guided model optimization and control. Experienced in pre-training LLMs and multimodal/image-generation models. This experience is complemented by gold medals in NOI and ICPC/CCPC and a strong algorithmic and engineering foundation.",
     "location": {
       "city": "Beijing",
       "countryCode": "CN",
@@ -114,21 +114,21 @@
   "preprints": [
     {
       "name": "Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models",
-      "publisher": "",
+      "publisher": "arXiv:2607.16409",
       "releaseDate": "2026",
-      "url": "https://outerform.site/assets/pdf/papers/atlas.pdf",
+      "url": "https://arxiv.org/abs/2607.16409",
       "summary": "A layout-aware reasoning framework for controllable image generation in unified MLLMs, supporting spatial reasoning, explicit layout planning, image rendering, instruction-guided editing, and multimodal grounding."
     },
     {
       "name": "ConLUX: Concept-Based Local Unified Explanations",
-      "publisher": "",
+      "publisher": "arXiv:2410.12439",
       "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2410.12439",
       "summary": "A general framework that extends local model-agnostic techniques to concept-based explanations supporting attributions, sufficient conditions, and counterfactuals."
     },
     {
       "name": "WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior",
-      "publisher": "",
+      "publisher": "arXiv:2603.18474",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2603.18474",
       "summary": "A framework that explains model behavior by identifying sufficient neural conditions for token generation."
