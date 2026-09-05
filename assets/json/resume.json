@@ -79,7 +79,7 @@
       "name": "Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models",
       "publisher": "ACL 2026, Main Conference (Oral, 4.12%)",
       "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2505.12509",
+      "url": "https://aclanthology.org/2026.acl-long.220/",
       "summary": "A proxy-based explanation framework that transfers explanations from budget-friendly models to expensive LLMs, achieving over 90% fidelity at only 9.5% of the cost."
     },
     {
@@ -93,7 +93,7 @@
       "name": "ReX: A framework for incorporating temporal information in model-agnostic local explanation techniques",
       "publisher": "AAAI 2025 (Oral, 4.68%)",
       "releaseDate": "2025",
-      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34079/36234",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34079",
       "summary": "A general framework that incorporates temporal information into model-agnostic local explanation techniques such as Anchors, LIME, and Kernel SHAP."
     },
     {
