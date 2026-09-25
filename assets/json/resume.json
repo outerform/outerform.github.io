@@ -76,6 +76,13 @@
   ],
   "publications": [
     {
+      "name": "Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models",
+      "publisher": "NeurIPS 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2607.16409",
+      "summary": "A layout-aware reasoning framework for controllable image generation in unified MLLMs, supporting spatial reasoning, explicit layout planning, image rendering, instruction-guided editing, and multimodal grounding."
+    },
+    {
       "name": "Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models",
       "publisher": "ACL 2026, Main Conference (Oral, 4.12%)",
       "releaseDate": "2026",
@@ -112,13 +119,6 @@
     }
   ],
   "preprints": [
-    {
-      "name": "Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models",
-      "publisher": "arXiv:2607.16409",
-      "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2607.16409",
-      "summary": "A layout-aware reasoning framework for controllable image generation in unified MLLMs, supporting spatial reasoning, explicit layout planning, image rendering, instruction-guided editing, and multimodal grounding."
-    },
     {
       "name": "ConLUX: Concept-Based Local Unified Explanations",
       "publisher": "arXiv:2410.12439",
