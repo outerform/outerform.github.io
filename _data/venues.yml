@@ -10,6 +10,10 @@
   url: https://2026.ijcai.org/
   color: "#7a4cc2"
 
+"NeurIPS":
+  url: https://neurips.cc/Conferences/2026
+  color: "#8b352c"
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
