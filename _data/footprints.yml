@@ -1,0 +1,9 @@
+# Add travel photos in display order. Images can be filenames under
+# assets/img/footprints/ or full paths such as assets/img/footprints/paris.jpg.
+#
+# Example:
+# - image: paris.jpg
+#   place: Paris, France
+#   date: 2025
+#   caption: Evening light along the Seine.
+[]

@@ -1,0 +1,43 @@
+{% assign footprints = site.data.footprints %}
+{% assign photo_limit = include.limit | default: footprints.size %}
+
+<div class="footprints">
+  {% if footprints and footprints.size > 0 %}
+    <div class="footprints-grid">
+      {% for item in footprints limit: photo_limit %}
+        {% assign image_path = item.image %}
+        {% unless image_path contains '/' %}
+          {% assign image_path = image_path | prepend: 'assets/img/footprints/' %}
+        {% endunless %}
+        {% assign image_src = image_path %}
+        {% unless image_src contains '://' %}
+          {% assign image_src = image_src | relative_url %}
+        {% endunless %}
+        {% assign image_alt = item.alt | default: item.caption | default: item.place | default: 'Travel photo' %}
+
+        <figure class="footprint-tile">
+          <img class="footprint-image" src="{{ image_src }}" alt="{{ image_alt }}" loading="lazy" data-zoomable>
+          {% if item.place or item.date or item.caption %}
+            <figcaption class="footprint-meta">
+              {% if item.place or item.date %}
+                <span class="footprint-place">
+                  {{ item.place }}
+                  {% if item.place and item.date %}<span class="footprint-separator">/</span>{% endif %}
+                  {{ item.date }}
+                </span>
+              {% endif %}
+              {% if item.caption %}
+                <span class="footprint-caption">{{ item.caption }}</span>
+              {% endif %}
+            </figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="footprints-empty">
+      <i class="ti ti-camera" aria-hidden="true"></i>
+      <p>Photos coming soon.</p>
+    </div>
+  {% endif %}
+</div>

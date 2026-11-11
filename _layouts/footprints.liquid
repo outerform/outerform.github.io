@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="post footprints-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <div class="footprints-intro">
+      <p class="footprints-quote" lang="zh-Hant">{{ page.quote | escape }}</p>
+      <p class="footprints-description">{{ page.description | escape }}</p>
+      <p class="footprints-credit" lang="zh-Hant"><cite>{{ page.credit | escape }}</cite></p>
+    </div>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+</div>
