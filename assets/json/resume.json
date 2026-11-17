@@ -26,8 +26,11 @@
       "url": "",
       "startDate": "2026-06-01",
       "endDate": "",
-      "summary": "Contributing to large language model pre-training, with responsibility for code-corpus processing and multi-source data mixture strategy design.",
-      "highlights": []
+      "summary": "Coordinate LLM pre-training data production, design data mixture strategies, and build code data pipelines.",
+      "highlights": [
+        "Oversee progress in LLM pre-training data production, coordinate delivery and integration across data streams, and design and refine data mixture strategies.",
+        "Build data pipelines for pre-training code corpora."
+      ]
     },
     {
       "name": "Tencent",
@@ -35,8 +38,11 @@
       "url": "",
       "startDate": "2025-07-01",
       "endDate": "2026-05-31",
-      "summary": "Conducting research and development on HunyuanImage models, focusing on improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior.",
-      "highlights": []
+      "summary": "Contributed to ATLAS on HunyuanImage for layout-aware, controllable image generation.",
+      "highlights": [
+        "Used layouts to connect spatial reasoning, object planning, and image generation under complex instructions.",
+        "Studied shared positional tokens and reinforcement-learning-based layout alignment to improve plan-to-image consistency and support fine-grained editing."
+      ]
     }
   ],
   "education": [
@@ -127,6 +133,13 @@
       "summary": "A general framework that extends local model-agnostic techniques to concept-based explanations supporting attributions, sufficient conditions, and counterfactuals."
     },
     {
+      "name": "STR: Supervised Transcoder Replacement for Reducing Steering Side Effects",
+      "publisher": "arXiv:2609.32519",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2609.32519",
+      "summary": "A supervised sparse transcoder replacement that reduces the safety side effects of existing steering methods while retaining target control on Gemma and Llama models."
+    },
+    {
       "name": "WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior",
       "publisher": "arXiv:2603.18474",
       "releaseDate": "2026",
@@ -135,6 +148,18 @@
     }
   ],
   "awards": [
+    {
+      "title": "Peking University Merit Student",
+      "date": "2026-01-01",
+      "awarder": "Peking University",
+      "summary": ""
+    },
+    {
+      "title": "National Scholarship",
+      "date": "2026-01-01",
+      "awarder": "Ministry of Education of China",
+      "summary": ""
+    },
     {
       "title": "Outstanding Research Award",
       "date": "2023-01-01",

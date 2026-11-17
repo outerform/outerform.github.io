@@ -1,3 +1,7 @@
+% !TeX program = lualatex
+\RequirePackage{iftex}
+% Embed Chinese ToUnicode maps for viewers without external Adobe CMaps.
+\RequireLuaTeX
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -114,15 +118,19 @@
       {小红书·研究实习生（Ace「顶尖实习生」计划）}{2026.6 -- 至今}
       {Dots团队}{北京}
       \resumeItemListStart
-        \resumeItem{工作内容}
-          {参与大语言模型预训练，负责代码语料处理与多源数据混合策略设计。}
+        \resumeItem{预训练数据生产}
+          {统筹大语言模型预训练数据生产进度，协调各数据方向的交付节奏与整合工作，负责数据配比策略的设计与迭代。}
+        \resumeItem{代码数据管线}
+          {负责预训练代码语料的管线建设。}
       \resumeItemListEnd
     \resumeSubheading
       {腾讯·研究实习生（青云计划）}{2025.7 -- 2026.5}
       {混元多模态模型团队}{北京}
       \resumeItemListStart
-        \resumeItem{工作内容}
-          {参与混元图像模型（HunyuanImage）的研发，专注于模型可解释性与可控性研究，探索对模型行为的透明理解与精准调控方法。}
+        \resumeItem{布局驱动生成}
+          {参与基于 HunyuanImage 的 ATLAS 研发，以布局连接空间推理、目标规划与图像生成，提升复杂空间指令下的可控生成能力。}
+        \resumeItem{布局对齐}
+          {研究共享位置标记与基于强化学习的布局对齐方法，改善规划布局与生成结果的一致性，并支持细粒度图像编辑。}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -156,6 +164,9 @@
     \item \textbf{Liu, Junhao}, Haonan Yu, and Xin Zhang. \href{https://arxiv.org/pdf/2410.12439}{ConLUX: Concept-Based Local Unified Explanations.} arXiv:2410.12439（2024）。 \vspace{0.2cm}\\
         {\small \textbf{摘要：}现有基于概念的模型无关解释方法局限于归因形式。我们提出通用框架 ConLUX，利用大模型扰动将现有局部解释技术统一扩展为基于概念的解释，支持归因、充分条件和反事实三种形式。在文本、图像与多模态模型上的评估表明，ConLUX 显著提升了解释的保真度与可理解性。}
 
+    \item Yu, Haonan, \textbf{Junhao Liu}, Zhenyu Yan, Haoran Lin, and Xin Zhang. \href{https://arxiv.org/abs/2609.32519}{STR: Supervised Transcoder Replacement for Reducing Steering Side Effects.} arXiv:2609.32519（2026）。\vspace{0.2cm}\\
+        {\small \textbf{摘要：}STR 通过监督训练稀疏 transcoder 替换 MLP，在保持目标控制能力的同时降低安全副作用。}
+
     \item Yu, Haonan, \textbf{Junhao Liu}, Zhenyu Yan, Haoran Lin, and Xin Zhang. \href{https://arxiv.org/abs/2603.18474}{WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior.} arXiv:2603.18474（2026）。\vspace{0.2cm}\\
         {\small \textbf{摘要：}我们提出 WASD 框架，通过定位token生成的充分神经元条件来解释和控制模型行为。该方法将候选条件建模为神经元激活谓词，并迭代搜索保证当前输出的最小集合。实验表明，所得解释比传统归因图更稳定、准确且简洁。}
 \end{itemize}
@@ -174,6 +185,7 @@
     \item \textbf{学校奖励}{}
         {\small
      \begin{tabular*}{0.97\textwidth}{@{\hspace{1em}}l@{\extracolsep{\fill}}r}
+      北京大学三好学生、国家奖学金 & 2026\\
       优秀科研奖& 2023\\
       北京市优秀毕业生& 2022 \\
       国家奖学金、北京大学一等奖学金、北京大学三好学生标兵 & 2019 -- 2021

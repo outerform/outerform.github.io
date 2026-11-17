@@ -21,7 +21,7 @@ printf '%s' "$CV_PHONE" | grep -Eq '^[0-9+() .-]+$' || die "CV_PHONE may only co
 require_cmd git
 require_cmd latexmk
 require_cmd pdflatex
-require_cmd xelatex
+require_cmd lualatex
 
 [[ -d "$private_repo_path/.git" ]] || die "private CV repo not found at $private_repo_path; clone it first: git clone $private_repo_url $private_repo_path"
 
@@ -44,7 +44,7 @@ EOF
 (
   cd "$work_dir"
   latexmk -pdf -interaction=nonstopmode -halt-on-error CV_en_private.tex >/dev/null
-  latexmk -xelatex -interaction=nonstopmode -halt-on-error CV_zh_private.tex >/dev/null
+  latexmk -lualatex -interaction=nonstopmode -halt-on-error CV_zh_private.tex >/dev/null
 )
 
 cp "$work_dir/CV_en_private.pdf" "$private_repo_path/CV_en_private.pdf"

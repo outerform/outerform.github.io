@@ -31,17 +31,22 @@
       institution: Xiaohongshu, Dots Team
       year: Jun. 2026 - Present
       description:
-        - Contributing to large language model pre-training, with responsibility for code-corpus processing and multi-source data mixture strategy design
+        - "Pre-training data production: Oversee progress in LLM pre-training data production, coordinate delivery and integration across data streams, and design and refine data mixture strategies."
+        - "Code data pipeline: Build data pipelines for pre-training code corpora."
     - title: Research Intern (Project Up)
       institution: Tencent, Hunyuan Multimodal Model Team
       year: Jul. 2025 - May 2026
       description:
-        - Conducting research and development on HunyuanImage models
-        - Improving model interpretability and controllability, enabling more transparent understanding and precise manipulation of model behavior
+        - "Layout-aware generation: Contributed to ATLAS on HunyuanImage, connecting spatial reasoning, object planning, and image generation through layouts."
+        - "Layout alignment: Studied shared positional tokens and reinforcement-learning-based layout alignment to improve plan-to-image consistency and support fine-grained editing."
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Peking University Merit Student
+        - National Scholarship
     - year: 2017
       items:
         - Gold Medal, National Olympiad in Informatics (NOI)

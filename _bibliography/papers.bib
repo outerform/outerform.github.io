@@ -56,6 +56,18 @@
   abstract={We propose a novel framework that provides constructive feedback to an LLM in the "guess-and-check" paradigm by formally verifying its own thinking process and detecting local reasoning errors. We apply this framework to the loop invariant synthesis problem. We prompt the model to produce a step-by-step natural language proof justifying its thinking process for the failed verification condition of its generated loop invariants. Then, we use an LLM to translate the reasoning steps into first-order logic implications, which can be checked automatically. An invalid implication pinpoints the exact logical flaw in the LLM's thinking process, which we then use to construct targeted feedback for refinement. We have implemented our approach in a tool called LORIS and evaluated it on a main benchmark suite of 460 C programs and an additional benchmark suite of 50 C programs each of which involves non-linear properties. On the main benchmark suite, LORIS solved 445 of the programs, and achieved an overall success rate of 93.1%. LORIS also demonstrates robustness on the challenging non-linear benchmark suite.}
 }
 
+@article{yu2026str,
+  title={STR: Supervised Transcoder Replacement for Reducing Steering Side Effects},
+  author={Yu, Haonan and Liu, Junhao and Yan, Zhenyu and Lin, Haoran and Zhang, Xin},
+  journal={},
+  year={2026},
+  abbr={Preprint},
+  pdf={papers/str.pdf},
+  arxiv={2609.32519},
+  preview={str.png},
+  abstract={STR reduces the unintended effects of activation steering by training a sparse transcoder to replace an MLP at the intervention layer. Its training balances target control, preservation of non-target behavior, and fidelity when steering is disabled. Existing steering methods then operate on the frozen replacement with their original objectives. Experiments on Gemma and Llama models show improved safety preservation on both in-distribution and unseen safety datasets while retaining effective target control.}
+}
+
 @article{yu2026wasd,
   title={WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior},
   author={Yu, Haonan and Liu, Junhao and Yan, Zhenyu and Lin, Haoran and Zhang, Xin},
